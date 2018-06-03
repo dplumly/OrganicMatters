@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Walkway_Bold';
+    src: url('Walkway_Bold.eot');
+    src: url('Walkway_Bold.eot?#iefix') format('embedded-opentype'),
+         url('Walkway_Bold.woff') format('woff'),
+         url('Walkway_Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Walkway_Black';
+    src: url('Walkway_Black.eot');
+    src: url('Walkway_Black.eot?#iefix') format('embedded-opentype'),
+         url('Walkway_Black.woff') format('woff'),
+         url('Walkway_Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Walkway_SemiBold';
+    src: url('Walkway_SemiBold.eot');
+    src: url('Walkway_SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('Walkway_SemiBold.woff') format('woff'),
+         url('Walkway_SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Walkway_UltraBold';
+    src: url('Walkway_UltraBold.eot');
+    src: url('Walkway_UltraBold.eot?#iefix') format('embedded-opentype'),
+         url('Walkway_UltraBold.woff') format('woff'),
+         url('Walkway_UltraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

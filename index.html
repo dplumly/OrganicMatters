@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="keywords" content="Wood, Woodworking, Handmade, Custom, Modern, Rustic, Accessories, Classic, Walnut, Maple, Cutting Boards">
+		<meta name="CUSTOM DESIGNS CREATED WITH MATERIALS FROM THE EARTH." content="">
+		<meta name="Organic Matter(s)" content="Handmade Modern Woodworking Designs">
+
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
+		<title>Organic Matter(s)</title>
+
+		<!-- <css> -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="fonts/walkway/walkway.css">
+		
+		<!-- <favicon> -->
+		<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+
+		<link rel="stylesheet" href="css/gallery.css">
+		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/main.css">
+		<script src="js/modernizr.js"></script>
+	</head>
+ 
+	<body>
+		<section id="landing">
+			<div id="landing-overlay"></div>
+
+			<div id="landing-content">
+				<!--<h1>These are some words!</h1>-->
+				<img id="logo" src="img/landing/organicMattersLogo.svg">
+
+				<h4 class="seven columns centered">Custom designs created with materials from the earth.</h4>
+			</div><!-- end landing-content -->
+		</section><!-- end landing -->
+
+
+
+		<section id="store">
+			<div id="store-content" class="twelve column centered">
+				<div id="sectionHeader">
+					<h2>designs</h2>
+				</div>
+
+				<h5>Our collection of handcrafted items.</h5>
+				<ul class="row">
+				  	<li class="three column">
+		  				<a class="cuttingBoard" href="img/store/products/cuttingboard/cuttingboard1_1000.jpg" alt=""> 
+						<img class="fadeIn" src="img/store/products/cuttingboard/cuttingboardThumb.jpg">
+						<h4>Cutting Boards</h4></a>
+
+						<!-- hidden thumbs  -->
+	                    <a class="cuttingBoard" href="img/store/products/cuttingboard/cuttingboard2_1000.jpg"
+	                    <img src="#" style="width:0; height: 0; display:none;" alt=""></a>
+	                    <a class="cuttingBoard" href="img/store/products/cuttingboard/cuttingboard3_1000.jpg"
+	                    <img src="#" style="width:0; height: 0; display:none;" alt=""></a>
+	                    <a class="cuttingBoard" href="img/store/products/cuttingboard/cuttingboard4_1000.jpg"
+	                    <img src="#" style="width:0; height: 0; display:none;" alt=""></a>
+
+
+						<form action="." method="post">
+					        <noscript>You must <a href="http://www.enable-javascript.com" target="_blank">enable JavaScript</a> in your web browser in order to pay via Stripe.</noscript>
+
+					        <input
+
+					            type="submit"
+					            value="Buy now - $50"
+					            data-key="pk_live_WI9Pv5MPIQFHftuebeAWjLIc"
+					            data-amount="50"
+					            data-currency="usd"
+					            data-name="Think Make Repeat"
+					            data-description="Cutting Board for $50"
+					        />
+
+					        <script src="https://checkout.stripe.com/v2/checkout.js"></script>
+					        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+					        <script>
+					        $(document).ready(function() {
+					            $(':submit').on('click', function(event) {
+					                event.preventDefault();
+
+					                var $button = $(this),
+					                    $form = $button.parents('form');
+
+					                var opts = $.extend({}, $button.data(), {
+					                    token: function(result) {
+					                        $form.append($('<input>').attr({ type: 'hidden', name: 'stripeToken', value: result.id })).submit();
+					                    }
+					                });
+
+					                StripeCheckout.open(opts);
+					            });
+					        });
+					        </script>
+						</form>
+					</li>
+
+
+					<li class="three column">
+						<a class="hipster" href="img/store/products/hipster/hipster1_1000.jpg" alt="">
+							<img class="fadeIn" src="img/store/products/hipster/hipsterThumb.jpg">
+							<h4>Hipster Block</h4>
+						</a>
+
+						<!-- hidden thumbs  -->
+	                    <a class="hipster" href="img/store/products/hipster/hipster2_1000.jpg"
+	                    <img src="#" style="width:0; height: 0; display:none;" alt=""></a>
+
+						<form action="." method="post">
+							<noscript>You must <a href="http://www.enable-javascript.com" target="_blank">enable JavaScript</a> in your web browser in order to pay via Stripe.</noscript>
+
+							<input
+
+									type="submit"
+									value="Buy now - $25"
+									data-key="pk_live_WI9Pv5MPIQFHftuebeAWjLIc"
+									data-amount="50"
+									data-currency="usd"
+									data-name="Think Make Repeat"
+									data-description="Cutting Board for $50"
+							/>
+
+							<script src="https://checkout.stripe.com/v2/checkout.js"></script>
+							<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+							<script>
+							$(document).ready(function() {
+									$(':submit').on('click', function(event) {
+										event.preventDefault();
+
+										var $button = $(this),
+												$form = $button.parents('form');
+
+										var opts = $.extend({}, $button.data(), {
+												token: function(result) {
+														$form.append($('<input>').attr({ type: 'hidden', name: 'stripeToken', value: result.id })).submit();
+												}
+										});
+
+										StripeCheckout.open(opts);
+									});
+							});
+							</script>
+						</form>
+					</li>
+
+
+					<li class="three column">
+						<a class="analogAudio" href="img/store/products/analogAudio/analogAudio1_1000.jpg" alt="">
+							<img class="fadeIn" src="img/store/products/analogAudio/analogAudioThumb.jpg">
+							<h4>Analog Audio</h4>
+						</a>
+
+						<!-- hidden thumbs  -->
+	                    <a class="analogAudio" href="img/store/products/analogAudio/analogAudio2_1000.jpg"
+	                    <img src="#" style="width:0; height: 0; display:none;" alt=""></a>
+	                    <a class="analogAudio" href="img/store/products/analogAudio/analogAudio3_1000.jpg"
+	                    <img src="#" style="width:0; height: 0; display:none;" alt=""></a>
+	                    <a class="analogAudio" href="img/store/products/analogAudio/analogAudio4_1000.jpg"
+	                    <img src="#" style="width:0; height: 0; display:none;" alt=""></a>
+
+						<form action="." method="post">
+					        <noscript>You must <a href="http://www.enable-javascript.com" target="_blank">enable JavaScript</a> in your web browser in order to pay via Stripe.</noscript>
+
+					        <input
+
+					            type="submit"
+					            value="Buy now - $45"
+					            data-key="pk_live_WI9Pv5MPIQFHftuebeAWjLIc"
+					            data-amount="50"
+					            data-currency="usd"
+					            data-name="Think Make Repeat"
+					            data-description="Cutting Board for $50"
+					        />
+
+					        <script src="https://checkout.stripe.com/v2/checkout.js"></script>
+					        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+					        <script>
+					        $(document).ready(function() {
+					            $(':submit').on('click', function(event) {
+					                event.preventDefault();
+
+					                var $button = $(this),
+					                    $form = $button.parents('form');
+
+					                var opts = $.extend({}, $button.data(), {
+					                    token: function(result) {
+					                        $form.append($('<input>').attr({ type: 'hidden', name: 'stripeToken', value: result.id })).submit();
+					                    }
+					                });
+
+					                StripeCheckout.open(opts);
+					            });
+					        });
+					        </script>
+						</form>
+					</li>
+
+					<li class="three column">
+						<a class="vallet" href="img/store/products/vallet/vallet1_1000.jpg" alt="">
+							<img class="fadeIn" src="img/store/products/vallet/valletThumb.jpg">
+							<h4>Office Vallet</h4>
+						</a>
+
+						<!-- hidden thumbs  -->
+	                    <a class="vallet" href="img/store/products/vallet/vallet2_1000.jpg"
+	                    <img src="#" style="width:0; height: 0; display:none;" alt=""></a>
+	                    <a class="vallet" href="img/store/products/vallet/vallet3_1000.jpg"
+	                    <img src="#" style="width:0; height: 0; display:none;" alt=""></a>
+
+						<form action="." method="post">
+					        <noscript>You must <a href="http://www.enable-javascript.com" target="_blank">enable JavaScript</a> in your web browser in order to pay via Stripe.</noscript>
+
+					        <input
+
+					            type="submit"
+					            value="Buy now - $80"
+					            data-key="pk_live_WI9Pv5MPIQFHftuebeAWjLIc"
+					            data-amount="50"
+					            data-currency="usd"
+					            data-name="Think Make Repeat"
+					            data-description="Cutting Board for $50"
+					        />
+
+					        <script src="https://checkout.stripe.com/v2/checkout.js"></script>
+					        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+					        <script>
+					        $(document).ready(function() {
+					            $(':submit').on('click', function(event) {
+					                event.preventDefault();
+
+					                var $button = $(this),
+					                    $form = $button.parents('form');
+
+					                var opts = $.extend({}, $button.data(), {
+					                    token: function(result) {
+					                        $form.append($('<input>').attr({ type: 'hidden', name: 'stripeToken', value: result.id })).submit();
+					                    }
+					                });
+
+					                StripeCheckout.open(opts);
+					            });
+					        });
+					        </script>
+						</form>
+					</li>
+
+					<li class="three column">
+						<a class="farmFlowers" href="img/store/products/farmFlowers/farmFlowers1_1000.jpg" alt="">
+							<img class="fadeIn" src="img/store/products/farmFlowers/farmFlowersThumb.jpg">
+							<h4>Farm Flower Bin</h4>
+						</a>
+
+						<!-- hidden thumbs  -->
+	                    <a class="farmFlowers" href="img/store/products/farmFlowers/farmFlowers2_1000.jpg"
+	                    <img src="#" style="width:0; height: 0; display:none;" alt=""></a>
+	                    <a class="farmFlowers" href="img/store/products/farmFlowers/farmFlowers3_1000.jpg"
+	                    <img src="#" style="width:0; height: 0; display:none;" alt=""></a>
+	                    <a class="farmFlowers" href="img/store/products/farmFlowers/farmFlowers4_1000.jpg"
+	                    <img src="#" style="width:0; height: 0; display:none;" alt=""></a>
+
+						<form action="." method="post">
+					        <noscript>You must <a href="http://www.enable-javascript.com" target="_blank">enable JavaScript</a> in your web browser in order to pay via Stripe.</noscript>
+
+					        <input
+
+					            type="submit"
+					            value="Buy now - $30"
+					            data-key="pk_live_WI9Pv5MPIQFHftuebeAWjLIc"
+					            data-amount="50"
+					            data-currency="usd"
+					            data-name="Think Make Repeat"
+					            data-description="Cutting Board for $50"
+					        />
+
+					        <script src="https://checkout.stripe.com/v2/checkout.js"></script>
+					        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+					        <script>
+					        $(document).ready(function() {
+					            $(':submit').on('click', function(event) {
+					                event.preventDefault();
+
+					                var $button = $(this),
+					                    $form = $button.parents('form');
+
+					                var opts = $.extend({}, $button.data(), {
+					                    token: function(result) {
+					                        $form.append($('<input>').attr({ type: 'hidden', name: 'stripeToken', value: result.id })).submit();
+					                    }
+					                });
+
+					                StripeCheckout.open(opts);
+					            });
+					        });
+					        </script>
+						</form>
+					</li>
+				</ul>
+			</div><!-- end store-content -->
+		</section><!-- end store -->
+
+		
+
+
+		<footer>
+			<ul>
+				<li class="fadeIn">
+					<a href="https://www.etsy.com/people/p9tzlq8f" target="_blank">
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 				viewBox="0 0 27 27" style="enable-background:new 0 0 27 27;" xml:space="preserve">
+						<style type="text/css">
+							.st0{fill:#EAEAEA;}
+						</style>
+						<g>
+							<path class="social st0" d="M8.2,7.2c0,0.1,0,0.3,0,0.4C8.1,8.3,8,8.9,8,9.5C8,9.7,8,9.8,8,10c-0.2,0-0.3,0-0.5,0c0,0-0.1-0.1-0.1-0.1
+								c-0.1-0.3-0.2-0.7-0.3-1C7.1,8.7,7,8.5,6.9,8.4C6.7,8.1,6.5,8,6.2,8c-1,0-2,0-3,0c-0.2,0-0.3,0-0.3,0.3c0,1.1,0,2.3,0,3.4
+								c0,0.1,0,0.2,0.1,0.2c0.6,0,1.3,0,1.9-0.1c0.4,0,0.5-0.1,0.6-0.5c0.1-0.3,0.1-0.5,0.2-0.8c0-0.1,0.1-0.1,0.1-0.1c0.1,0,0.3,0,0.4,0
+								c0,1.2,0,2.3,0,3.5c-0.2,0-0.3,0-0.5,0c0,0-0.1-0.1-0.1-0.1c0-0.2-0.1-0.4-0.1-0.6c-0.1-0.5-0.3-0.7-0.8-0.7c-0.6,0-1.3,0-1.9,0
+								c0,0,0,0,0,0c0,0,0,0.1,0,0.1c0,1,0,1.9,0,2.9c0,0.1,0,0.2,0,0.4c0.1,0.3,0.4,0.5,0.8,0.5c0.8,0,1.7,0,2.5,0c0.6,0,1-0.3,1.3-0.8
+								c0.2-0.4,0.4-0.8,0.6-1.2c0-0.1,0.1-0.1,0.2-0.1c0.1,0,0.2,0,0.3,0c-0.1,1-0.2,1.9-0.3,2.9C5.5,17,2.8,17,0,17.1c0-0.2,0-0.4,0-0.6
+								c0.1,0,0.1,0,0.2,0c0.3-0.1,0.6-0.1,0.8-0.2c0.3-0.1,0.4-0.2,0.4-0.5c0-0.8,0-1.6,0-2.4c0-1.6,0-3.2,0-4.8c0-0.4-0.1-0.6-0.5-0.6
+								C0.6,8,0.3,7.9,0,7.9c0-0.2,0-0.4,0-0.5c0,0,0.1,0,0.1,0c0.6,0,1.2,0.1,1.8,0.1c1.8,0,3.7,0.1,5.5-0.1C7.7,7.3,7.9,7.3,8.2,7.2
+								C8.1,7.2,8.1,7.2,8.2,7.2z"/>
+							<path class="social st0" d="M27.1,11.1c-0.3,0.1-0.5,0.2-0.8,0.3c-0.1,0.1-0.2,0.2-0.3,0.4c-0.6,1.3-1.1,2.6-1.7,3.9
+								c-0.3,0.7-0.6,1.4-1,2.1c-0.3,0.6-0.7,1.1-1.1,1.5c-0.4,0.4-1,0.6-1.6,0.7c0,0-0.1,0-0.1,0c-0.2,0-0.4,0-0.6,0
+								c-0.1,0-0.3,0-0.4-0.1c-0.2-0.1-0.4-0.2-0.6-0.3c0,0-0.1-0.1-0.1-0.1c0.1-0.6,0.2-1.2,0.3-1.8c0,0,0,0,0,0c0.2,0,0.3,0,0.5,0
+								c0,0,0.1,0.1,0.1,0.1c0.1,0.3,0.1,0.6,0.2,0.9c0.1,0.3,0.2,0.5,0.6,0.5c0.5,0,0.9-0.2,1.3-0.5c0.4-0.4,0.7-0.8,0.9-1.2
+								c0,0,0-0.1,0-0.1c-0.7-1.9-1.5-3.8-2.3-5.7c-0.1-0.3-0.3-0.5-0.7-0.6c-0.1,0-0.1-0.1-0.1-0.2c0-0.1,0-0.2,0-0.3
+								c1.1,0.1,2.2,0.1,3.3,0c0,0.1,0,0.3,0,0.4c0,0,0,0.1-0.1,0.1c-0.1,0-0.3,0.1-0.4,0.1c-0.4,0.1-0.5,0.3-0.4,0.7
+								c0.4,1.2,0.9,2.3,1.3,3.5c0.1,0.2,0.1,0.3,0.2,0.5c0-0.1,0.1-0.1,0.1-0.1c0.5-1.2,1-2.4,1.5-3.6c0-0.1,0.1-0.2,0.1-0.3
+								c0.1-0.2,0-0.4-0.2-0.5c-0.2-0.1-0.3-0.1-0.5-0.2c-0.1,0-0.1-0.1-0.1-0.1c0-0.1,0-0.2,0-0.3c0.2,0,0.4,0,0.6,0c0.5,0,1,0,1.5,0
+								c0.2,0,0.4,0,0.5,0C27.1,10.7,27.1,10.9,27.1,11.1z"/>
+							<path class="social st0" d="M18.8,12.3c-0.1,0-0.3,0-0.4,0c0,0-0.1,0-0.1-0.1c-0.1-0.3-0.2-0.5-0.3-0.8c-0.1-0.3-0.3-0.4-0.5-0.5
+								c-0.4-0.1-0.7-0.1-1.1,0c-0.8,0.2-0.7,1-0.4,1.4c0.2,0.2,0.4,0.3,0.6,0.4c0.4,0.2,0.7,0.3,1.1,0.5c0.3,0.2,0.7,0.4,0.9,0.6
+								c0.7,0.8,0.6,2-0.2,2.7c-0.4,0.3-0.9,0.5-1.4,0.5c-0.8,0.1-1.5-0.1-2.3-0.3c-0.1,0-0.1-0.1-0.1-0.2c0-0.5,0-1.1,0-1.6
+								c0,0,0-0.1,0-0.1c0.1,0,0.3,0,0.4,0c0,0,0.1,0.1,0.1,0.1c0.1,0.3,0.2,0.6,0.3,0.8c0.2,0.5,0.6,0.8,1.1,0.8c0.2,0,0.4,0,0.6,0
+								c0.8-0.2,1-1,0.5-1.6c-0.2-0.2-0.4-0.4-0.7-0.5c-0.3-0.2-0.7-0.3-1-0.5c-0.3-0.2-0.6-0.3-0.9-0.6c-0.7-0.7-0.7-2.3,0.5-2.8
+								c0.4-0.2,0.8-0.2,1.2-0.2c0.6,0,1.2,0.1,1.8,0.2c0,0,0.1,0,0.1,0c0.1,0,0.1,0.1,0.1,0.1C18.9,11.3,18.8,11.8,18.8,12.3z"/>
+							<path class="social st0" d="M8.9,11.4c0-0.2,0-0.3,0-0.4c0,0,0-0.1,0.1-0.1c1-0.2,1.6-0.8,1.8-1.8c0-0.1,0.1-0.3,0.1-0.4
+								c0-0.1,0.1-0.1,0.1-0.1c0.1,0,0.2,0,0.3,0c0.1,0,0.1,0,0.1,0.1c0,0.6,0,1.2,0,1.7c0,0.1,0,0.1,0,0.2c0.7,0,1.4-0.1,2.1-0.1
+								c0,0.3-0.1,0.6-0.1,0.9c-0.7,0-1.3-0.1-2-0.1c0,0,0,0.1,0,0.1c0,1.2,0,2.5,0,3.7c0,0.2,0,0.4,0.1,0.6c0.1,0.6,0.6,0.8,1.1,0.7
+								c0.3-0.1,0.6-0.2,0.8-0.5c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0,0.1,0,0.1c-0.1,0.2-0.3,0.4-0.5,0.6c-0.7,0.4-1.4,0.5-2.1,0.2
+								c-0.6-0.2-0.9-0.6-1-1.2c0-0.1,0-0.3,0-0.4c0-1.3,0-2.6,0-3.9c0-0.2,0-0.2-0.2-0.2c-0.3,0-0.6,0-0.9,0C9,11.4,8.9,11.4,8.9,11.4z"
+								/>
+							</g>
+						</svg>
+					</a>
+				</li>
+
+				<li class="fadeIn">
+					<a href="https://www.instagram.com/organic.matters.design" target="_blank">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 					viewBox="0 0 27 27" style="enable-background:new 0 0 27 27;" xml:space="preserve">
+						<style type="text/css">
+							.st0{fill:#E9EBE4;}
+						</style>
+						<g>
+							<path class="social" d="M-298.5,109.4c0-7.1,0-14.2,0-21.3c0,0,0-0.1,0-0.1c0.2-1.1,0.7-1.9,1.7-2.4c0.3-0.1,0.7-0.2,1-0.3
+								c7.2,0,14.3,0,21.5,0c0.6,0.1,1.1,0.3,1.6,0.7c0.7,0.6,1.2,1.4,1.2,2.3c0,7,0,13.9,0,20.9c0,1.7-1.4,3.1-3.1,3.1
+								c-6.9,0-13.9,0-20.8,0c-1.1,0-2-0.5-2.6-1.5C-298.3,110.3-298.4,109.9-298.5,109.4z M-277,96.7c0.4,1.7,0.4,3.3-0.2,4.9
+								c-0.6,1.6-1.5,2.9-2.9,3.9c-1.4,1-2.9,1.5-4.6,1.6c-2.2,0.1-4.1-0.5-5.7-2c-2.5-2.2-3.4-5.1-2.7-8.4c-0.8,0-1.5,0-2.3,0
+								c0,0.1,0,0.2,0,0.2c0,3.7,0,7.3,0,11c0,0.1,0,0.3,0,0.4c0.1,0.4,0.3,0.7,0.7,0.8c0.2,0,0.4,0.1,0.5,0.1c6,0,12.1,0,18.1,0
+								c0.1,0,0.2,0,0.3,0c0.1,0,0.3,0,0.4-0.1c0.5-0.2,0.6-0.6,0.6-1.1c0-3.7,0-7.4,0-11c0-0.1,0-0.1,0-0.2
+								C-275.4,96.7-276.2,96.7-277,96.7z M-279.8,98.8c0-2.8-2.3-5.2-5.2-5.2c-2.8,0-5.2,2.3-5.2,5.2c0,2.9,2.3,5.2,5.2,5.2
+								C-282.2,104-279.9,101.7-279.8,98.8z M-274.6,91c0-0.3,0-0.5,0-0.8c0-0.3,0-0.5,0-0.8c0-0.6-0.4-1.1-1-1.1c-1.1,0-2.1,0-3.2,0
+								c-0.6,0-1,0.4-1,1c0,1.1,0,2.2,0,3.2c0,0.5,0.4,0.9,0.9,0.9c1.1,0,2.2,0,3.3,0c0.6,0,1-0.5,1-1.1C-274.6,92-274.6,91.5-274.6,91z"
+								/>
+							<path class="social" d="M-295.8,85.3c-0.3,0.1-0.7,0.2-1,0.3c-1,0.5-1.6,1.3-1.7,2.4c0,0,0,0.1,0,0.1"/>
+						</g>
+						<g>
+							<path class="social" d="M19.1,9.6c0.2,0,0.3,0,0.4,0c2.4,0,4.7,0,7.1,0c0.3,0,0.4,0.1,0.4,0.4c0,3.9,0,7.8,0,11.7c0,2.7-2.1,5-4.7,5.2
+								c-0.2,0-0.5,0-0.7,0c-5.4,0-10.8,0-16.2,0c-2.7,0-5-2.1-5.3-4.8c0-0.3,0-0.5,0-0.8c0-3.8,0-7.7,0-11.5c0-0.3,0.1-0.4,0.4-0.4
+								c2.4,0,4.7,0,7.1,0c0.1,0,0.2,0,0.4,0c-1.2,1.9-1.6,3.8-1,5.9c0.4,1.5,1.3,2.7,2.5,3.6c2.4,1.8,5.8,1.8,8.2-0.1
+								c1.5-1.1,2.3-2.6,2.6-4.4C20.5,12.8,20.1,11.1,19.1,9.6z"/>
+							<path class="social" d="M26.9,8.8c-0.1,0-0.2,0-0.3,0c-2.7,0-5.3,0-8,0c-0.1,0-0.3-0.1-0.4-0.2c-2.7-2.5-6.8-2.5-9.5,0
+								C8.6,8.7,8.5,8.8,8.3,8.8c-2.7,0-5.4,0-8.1,0c-0.1,0-0.1,0-0.2,0c0,0,0,0,0-0.1c0-1.5,0-3,0.1-4.5C0.3,2.9,1,1.9,2.1,1.1
+								C2.1,1,2.1,1,2.2,1c0,0,0,0,0.1,0c0,1.9,0,3.8,0,5.6c0.4,0,0.7,0,1.1,0c0-0.1,0-0.2,0-0.4c0-1.8,0-3.6,0-5.4c0-0.5,0-0.5,0.5-0.7
+								c0.1,0,0.1,0,0.3,0c0,2.2,0,4.3,0,6.5c0.4,0,0.7,0,1.1,0c0-2.2,0-4.4,0-6.6C5.5,0,5.7,0,6,0c0,2.2,0,4.4,0,6.7c0.4,0,0.7,0,1.1,0
+								c0-2.2,0-4.4,0-6.7c0.2,0,0.3,0,0.4,0c4.8,0,9.5,0,14.3,0c2.6,0,5,2.1,5.1,4.7c0.1,1.3,0,2.7,0.1,4C26.9,8.7,26.9,8.7,26.9,8.8z
+								 M24.5,4.5c0-0.5,0-1,0-1.4c0-0.5-0.3-0.8-0.8-0.8c-1,0-1.9,0-2.9,0c-0.5,0-0.8,0.4-0.8,0.9c0,1,0,1.9,0,2.9c0,0.5,0.3,0.9,0.9,0.9
+								c0.9,0,1.9,0,2.8,0c0.5,0,0.9-0.4,0.9-0.9C24.5,5.4,24.5,4.9,24.5,4.5z"/>
+							<path class="social" d="M13.5,18.9c-2.9,0-5.3-2.4-5.3-5.3c0-2.9,2.4-5.3,5.3-5.3c2.9,0,5.3,2.4,5.3,5.3
+								C18.8,16.5,16.4,18.9,13.5,18.9z M9.6,13.6c0,2.1,1.7,3.9,3.9,3.9c2.1,0,3.9-1.8,3.9-3.9c0-2.2-1.7-3.9-3.9-3.9
+								C11.3,9.7,9.6,11.4,9.6,13.6z"/>
+						</g>
+						</svg>
+					</a>
+				</li>
+
+
+				<li class="fadeIn">
+					<a href="mailto:organic.matters.designs@gmail.com" target="_blank">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		 			viewBox="0 0 27 27" style="enable-background:new 0 0 27 27;" xml:space="preserve">
+						<g>
+							<path class="social" d="M0,21.1c0-4.8,0-9.5,0-14.3c0-0.1,0-0.1,0-0.2c0.1-0.7,0.5-1.4,1-1.9c0.7-0.6,1.5-0.9,2.4-0.9
+								c6.6,0,13.1,0,19.7,0c0.2,0,0.5,0,0.7,0C25.1,4,26,4.5,26.6,5.6c0.2,0.4,0.3,0.8,0.4,1.2c0,4.8,0,9.5,0,14.3c0,0.1-0.1,0.2-0.1,0.3
+								c-0.2,0.7-0.5,1.3-1,1.8c-0.7,0.6-1.5,0.9-2.4,0.9c-2.7,0-5.3,0-8,0c-4,0-8,0-12,0c-1.5,0-2.5-0.6-3.2-2C0.2,21.7,0.1,21.4,0,21.1z
+								 M2.9,22.2C3,22.2,3,22.2,2.9,22.2c0.2,0.1,0.4,0.2,0.7,0.2c4.3,0,8.6,0,12.9,0c2.3,0,4.6,0,7,0c0.2,0,0.4-0.1,0.7-0.1
+								c-2.5-2.8-4.9-5.6-7.3-8.4c-0.2,0.1-0.3,0.2-0.4,0.4c-0.8,0.7-1.5,1.3-2.3,2c-0.3,0.3-0.8,0.3-1.1,0c-0.5-0.4-1-0.8-1.5-1.2
+								c-0.4-0.4-0.8-0.7-1.3-1.1C7.8,16.7,5.4,19.4,2.9,22.2z M13.5,14.5c3.5-3,6.9-5.9,10.5-9c-0.2,0-0.3-0.1-0.5-0.1
+								c-6.6,0-13.3,0-19.9,0c-0.1,0-0.3,0-0.5,0.1C6.6,8.5,10,11.5,13.5,14.5z M18.1,12.8c2.4,2.7,4.8,5.4,7.1,8.2c0,0,0,0,0.1,0
+								c0-0.2,0-0.3,0-0.5c0-4.4,0-8.8,0-13.1c0-0.2,0-0.3,0-0.5c0,0,0-0.1-0.1-0.2C22.8,8.7,20.5,10.7,18.1,12.8z M1.9,6.7
+								C1.8,6.7,1.8,6.7,1.9,6.7C1.8,6.9,1.7,7.1,1.7,7.3c0,4.4,0,8.9,0,13.3c0,0.1,0,0.3,0,0.4c0,0,0,0,0.1,0c2.4-2.7,4.8-5.4,7.1-8.2
+								C6.6,10.7,4.2,8.7,1.9,6.7z"/>
+						</g>
+						</svg>
+					</a>
+				</li>
+			</ul>
+			<p id="copyright">© Organic Matter(s)</p>
+		</footer>
+
+		<!-- <javascript> -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="js/jPushMenu.js"></script>
+		<script src="js/scrolline.js"></script>
+		<script src="js/scrollreveal.js"></script>
+		<script src="js/gallery.js"></script>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120225713-1"></script>
+		<script>
+			  window.dataLayer = window.dataLayer || [];
+			  function gtag(){dataLayer.push(arguments);}
+			  gtag('js', new Date());
+
+			  gtag('config', 'UA-120225713-1');
+		</script>
+
+
+
+		<!-- Scroll Down Page -->
+		<script>
+			$(function() {
+			  $('nav ul li a, #nav-center a').click(function() {
+			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			      var target = $(this.hash);
+			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			      if (target.length) {
+			        $('html,body').animate({
+			          scrollTop: target.offset().top
+			        }, 1000);
+			        return false;
+			      }
+			    }
+			  });
+			});
+	    </script>
+
+
+	    <!-- Scroll Reveal Script -->
+	    <script>
+	    	// Changing the defaults
+			window.sr = ScrollReveal({ reset: false});
+
+			// Customizing a reveal set
+			sr.reveal('.fadeIn', { duration: 800 });
+	    </script>
+
+
+
+	    <script>
+	    	$.scrolline({
+			    reverse : false,
+			    direction : 'vertical',
+			    position : 'right',
+			    backColor : '#878787',
+			    frontColor : '#6D1810',
+			    weight : 8
+			});
+	    </script>
+
+
+		<script type="text/javascript">
+	   		$(document).ready(function() {
+	   			$(".cuttingBoard").tosrus();
+	      		$(".hipster").tosrus();
+	      		$(".analogAudio").tosrus();
+	      		$(".vallet").tosrus();
+	      		$(".farmFlowers").tosrus();
+	   		});
+		</script>
+
+
+
+
+
+
+
+
+
+		<!--push menu-->
+		<script>
+			jQuery(document).ready(function($) {
+				$('.toggle-menu').jPushMenu();
+			});
+		</script>
+
+	    <!-- Google Analytics -->
+	    
+	</body>
+</html>
+
