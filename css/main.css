@@ -39,8 +39,7 @@ h3 {
 
 h4 {
     font-size: 1.250em;
-    font-family: 'Walkway_Bold';
-    text-transform: uppercase;
+    font-family: 'Walkway_SemiBold';
     line-height: 24px;
     letter-spacing: 1.5px;
     letter-spacing: 4px;
@@ -205,13 +204,18 @@ landing
     top: 90px;
 }
 
-#landing img { margin: 0 auto; display: table; }
-#logo { padding-top: 20px; width: 580px; }
+#logo { 
+    padding-top: 20px; 
+    width: 580px;
+    margin: 0 auto; 
+    display: table; 
+}
+#logoButton { display: none; }
 #landing h1 { text-align: center; }
 #landing h4 {
     text-align: center;
     line-height: 25px;
-    color: #fff;
+    color: #f1f1f0;
     margin-top: 90px;
     max-width: 575px;
     text-shadow: 1px 1px #393838;
@@ -286,6 +290,30 @@ store
     transform: scale(1.02) !important;
     opacity: .8 !important;
     cursor: pointer;
+}
+
+#store-content button {
+    margin: 0 auto;
+    display: table;
+    border: 2px solid #878787;
+    padding: 7px 22px;
+    border-radius: 2px;
+    font-family: 'Walkway_SemiBold';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: .7em;
+    color: #878787;
+    background: #f1f1f0;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+#store-content button:hover {
+    border: 2px solid #6D1810;
+    background-color: #6D1810;
+    color: #f1f1f0;
 }
 
 #store-content input {    
@@ -429,6 +457,15 @@ footer ul li a svg:hover text.st0.st1.st2
 
     /*footer { height: auto; }*/
     #footer-overlay { height: 846px; }
+}
+
+@media (max-width: 640px) { 
+    #logo { display: none; }
+    #logoButton { 
+        display: table;
+        width: 200px;
+        margin: 0 auto;
+    }
 }
 @media (max-width: 450px) { 
     #landing { background: url('../img/landing/mobileBG.jpg') center center; }
